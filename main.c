@@ -38,7 +38,7 @@ int main()
 
         printf("%d/%d\n", (i-start)/increment+1, (limit-start)/increment+1);
 
-        fprintf(f, "%d %.15f %.15f %.15f\n", size, best_case.avr_iterations, avr_case.avr_iterations, worst_case.avr_iterations);
+        fprintf(f, "%d %.15f %.15f %.15f\n", size, best_case.avr_time, avr_case.avr_time, worst_case.avr_time);
 
     }
 
